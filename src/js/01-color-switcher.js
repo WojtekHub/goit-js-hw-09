@@ -10,11 +10,12 @@ buttonStart.addEventListener('click', () => {
   const timer = setInterval(() => {
     document.getElementById('results').style.backgroundColor =
       getRandomHexColor();
-    //console.log(getRandomHexColor());
-  }, 2000);
+    buttonStart.setAttribute('disabled', true);
+  }, 1000);
 
   buttonStop.addEventListener('click', () => {
     clearInterval(timer);
-    console.log('TimeInterval STOP!');
+    console.log('TimeInterval STOP!!');
+    buttonStart.removeAttribute('disabled');
   });
 });
