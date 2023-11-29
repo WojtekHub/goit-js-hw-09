@@ -12,10 +12,10 @@
     "url": "git+https://wojtekhub.github.io/goit-js-hw-09/"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "WojtekHub <test@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://wojtekhub.github.io/goit-js-hw-09/issues"
+    "url": "https://github.com/WojtekHub/goit-js-hw-09/issues"
   },
   "dependencies": {
     "flatpickr": "^4.6.13",
