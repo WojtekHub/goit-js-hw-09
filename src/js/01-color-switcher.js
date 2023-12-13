@@ -15,7 +15,7 @@ buttonStart.addEventListener('click', () => {
 
   buttonStop.addEventListener('click', () => {
     clearInterval(timer);
-    console.log('TimeInterval STOP!!');
+    console.log('TimeInterval STOP!');
     buttonStart.removeAttribute('disabled');
   });
 });
